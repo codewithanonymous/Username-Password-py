@@ -19,12 +19,12 @@ while userName == userName and password == password: # The Input will always lea
         break # Leave the Loop and the whole program
 
 
-    elif userName == 'anonymous' and password == 'code': # The userName and password is equal to 'elmo' and 'blue', which is correct, they can enter FaceSnap!
+    elif userName == 'anonymous' and password == 'code': # The userName and password is equal to 'anonymous' and 'code', which is correct, they can enter FaceSnap!
         print("Welcome! ") # Welcomes the User, the username and password is correct
         break # Leave the loop and the whole program as the username and passowrd is correct
 
 
-    elif userName != 'anonymous' and password != 'code': # The userName and password is NOT equal to 'elmo' and 'blue', the user cannot enter FaceSnap
+    elif userName != 'anonymous' and password != 'code': # The userName and password is NOT equal to 'anonymous' and 'code', the user cannot enter FaceSnap
         print("Your Username and Password is wrong!") # Lets the user know that the Username and password entered is wrong.
         userName = input("\n\nUsername: ") # Requests the user to have another attempt at entering their correct username
         password = input("Password: ") # Requests the user to have another attempt at entering their correct password
@@ -32,7 +32,7 @@ while userName == userName and password == password: # The Input will always lea
         continue # Continue, as the user hasn't managed to get their username and password correct yet
 
 
-    elif userName == 'anonymous' and password != 'code': # The userName is equal to 'elmo', but password is NOT equal to 'blue', the user cannot enter FaceSnap
+    elif userName == 'anonymous' and password != 'code': # The userName is equal to 'anonymous', but password is NOT equal to 'code', the user cannot enter FaceSnap
         print("Your Password is wrong!") # Lets the user know that their password is wrong
         userName = input("\n\nUsername: ") # Requests the user to have another attempt at entering their correct username
         password = input("Password: ") # Requests the user to have another attempt at entering their correct password
@@ -40,7 +40,7 @@ while userName == userName and password == password: # The Input will always lea
         continue # Continue, as the user hasn't managed to get their username and password correct yet
 
 
-    elif userName != 'anonymous' and password == 'code': # The userName is NOT equal to 'elmo', however password is equal to 'blue', the user cannot enter FaceSnap
+    elif userName != 'anonymous' and password == 'code': # The userName is NOT equal to 'anonymous', however password is equal to 'code', the user cannot enter FaceSnap
         print("Your Username is wrong!") # Lets the user know that their username is wrong
         userName = input("\n\nUsername: ") # Requests the user to have another attempt at entering their correct username
         password = input("Password: ") # Requests the user to have another attempt at entering their correct password
